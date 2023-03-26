@@ -1,3 +1,6 @@
+import {google} from 'googleapis';
+import {OAuth2Client} from 'google-auth-library';
+import fs from 'fs';
 
 // Client ID and API key from the Developer Console
 var CLIENT_ID = '362278784795-i4lk4b8m8ftqo7q1pcnus13oq2e5ns2s.apps.googleusercontent.com';
