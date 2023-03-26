@@ -77,7 +77,7 @@ function uploadFile() {
   var file = document.getElementById('file').files[0];
   var metadata = {
     'name': file.name,
-    'parents': ['<FOLDER_ID>'] // Replace <FOLDER_ID> with the ID of the folder you want to upload to.
+    'parents': ['0B1JEDjfcEEvta3RzVjZMNS03ZWM'] // Replace <FOLDER_ID> with the ID of the folder you want to upload to.
   };
   var accessToken = gapi.auth.getToken().access_token;
   var form = new FormData();
