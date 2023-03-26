@@ -1,15 +1,6 @@
-import com.google.api.client.googleapis.json.GoogleJsonResponseException;
-import com.google.api.client.http.FileContent;
-import com.google.api.client.http.HttpRequestInitializer;
-import com.google.api.client.http.javanet.NetHttpTransport;
-import com.google.api.client.json.gson.GsonFactory;
-import com.google.api.services.drive.Drive;
-import com.google.api.services.drive.DriveScopes;
-import com.google.api.services.drive.model.File;
-import com.google.auth.http.HttpCredentialsAdapter;
-import com.google.auth.oauth2.GoogleCredentials;
-import java.io.IOException;
-import java.util.Arrays;
+import {google} from 'googleapis';
+import {OAuth2Client} from 'google-auth-library';
+import fs from 'fs';
 
 // Client ID and API key from the Developer Console
 var CLIENT_ID = '362278784795-i4lk4b8m8ftqo7q1pcnus13oq2e5ns2s.apps.googleusercontent.com';
